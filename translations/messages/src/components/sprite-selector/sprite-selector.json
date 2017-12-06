@@ -1,7 +1,0 @@
-[
-  {
-    "id": "gui.spriteSelector.addSprite",
-    "description": "Button to add a sprite in the target pane",
-    "defaultMessage": "Add Sprite"
-  }
-]
