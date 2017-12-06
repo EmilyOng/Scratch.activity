@@ -1,0 +1,7 @@
+[
+  {
+    "id": "gui.gui.addExtension",
+    "description": "Button to add an extension in the target pane",
+    "defaultMessage": "Extensions"
+  }
+]

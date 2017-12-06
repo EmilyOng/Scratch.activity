@@ -1,0 +1,12 @@
+[
+  {
+    "id": "gui.soundTab.recordSound",
+    "description": "Button to record a sound in the editor tab",
+    "defaultMessage": "Record Sound"
+  },
+  {
+    "id": "gui.soundTab.addSound",
+    "description": "Button to add a sound in the editor tab",
+    "defaultMessage": "Add Sound"
+  }
+]
