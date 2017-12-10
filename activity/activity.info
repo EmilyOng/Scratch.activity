@@ -1,6 +1,0 @@
-[Activity]
-name = Scratch
-activity_version = 1
-bundle_id = org.sugarlabs.Scratch
-exec = sugar-activity-web
-icon = activity-icon
