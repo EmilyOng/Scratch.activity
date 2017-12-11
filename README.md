@@ -163,7 +163,7 @@ _react2.default.createElement("div", {
     })
     
 ```
-In `js/activity.js`, I simulate a `save` button click when the Sugar user clicks on the `stop` button, and did the same for the `load` button when the Sugar user reenters the activity, before passing the stored JSON data from the `div` into the same `div` (`document.getElementById("myBlocks").value = data`).
+In `js/activity.js`, I simulated a `save` button click when the Sugar user clicks on the `stop` button, and did the same for the `load` button when the Sugar user reenters the activity, before passing the stored JSON data from the `div` into the same `div` (`document.getElementById("myBlocks").value = data`).
 
 ```
 for (var i = 0; i < document.body.getElementsByTagName("span").length; i++){
