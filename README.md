@@ -104,6 +104,10 @@ npm run build
 
 Configure the file path to that of this repository.
 
+### Note
+
+You can take a look at my prebuild source code [here](https://github.com/EmilyOng/scratch-source/tree/master).
+
 ## Integrating Datastore
 
 In order to integrate Sugarizer`s [datastore](https://github.com/llaske/sugarizer/tree/master/activities/ActivityTemplate/lib/sugar-web/datastore) function, I inputed the `json` data collected from `containters/save-button.js` into a `div` value. The lines of codes are commented out so that the saved data would not be downloaded.
