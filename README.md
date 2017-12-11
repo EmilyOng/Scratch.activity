@@ -1,19 +1,19 @@
 # Scratch.activity
 ![Scratch](http://i68.tinypic.com/103zn7s.png)
 
-Hello! I am Emily, a GCI'17 participant for Sugar Labs and this is one of the projects that I have worked on- Scratch 3.0 integration into Sugarizer.
+Hello! I am Emily, a GCI`17 participant for Sugar Labs and this is one of the projects that I have worked on- Scratch 3.0 integration into Sugarizer.
 
 ## Definitions
 
-If you have noticed, [Scratch 3.0](https://github.com/LLK/scratch-gui) uses many '.jsx' and '.ejs' files. 
+If you have noticed, [Scratch 3.0](https://github.com/LLK/scratch-gui) uses many `.jsx` and `.ejs` files. 
 
 + [JSX is a preprocessor step that adds XML syntax to JavaScript. You can definitely use React without JSX but JSX makes React a lot more elegant.](http://buildwithreact.com/tutorial/jsx)
 
 + [EJS (Embedded Javascript) is a client-side templating language.](http://www.embeddedjs.com/)
 
-What I did first was to translate the '.jsx' into '.js' code. This can easily be done using [Babel](https://babeljs.io/), a first-generation Javascript compiler, which would be useful in porting '.jsx' into '.js'.
+What I did first was to translate the `.jsx` into `.js` code. This can easily be done using [Babel](https://babeljs.io/), a first-generation Javascript compiler, which would be useful in porting `.jsx` into `.js`.
 
-Following which, I adapted the '.ejs' into '.html', and of course, including the Sugar toolbar and artwork.
+Following which, I adapted the `.ejs` into `.html`, and of course, including the Sugar toolbar and artwork.
 
 ```
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -53,7 +53,7 @@ Download this [file](http://wiki.laptop.org/go/File:Scratch-25.xo) to extract ac
 
 All these are available in the [activity template](https://github.com/llaske/sugarizer/tree/master/activities/ActivityTemplate).
 
-You would now need to configure your 'package.json' file- do make the following edits:
+You would now need to configure your `package.json` file- do make the following edits:
 
 ```
 "author": "Massachusetts Institute of Technology",
@@ -82,9 +82,9 @@ You would now need to configure your 'package.json' file- do make the following 
 
 ## Precautions
 
-Afterwhich, it is important to look through all the files again and replace '.jsx' with '.js' because we do not want to 'require' a file that no longer exists. It is also crucial to upate the 'webpackconfig.js' and 'package.json' files, and replace '.jsx' with '.js' and '.ejs; with '.html'.
+Afterwhich, it is important to look through all the files again and replace `.jsx` with `.js` because we do not want to `require` a file that no longer exists. It is also crucial to upate the `webpackconfig.js` and `package.json` files, and replace `.jsx` with `.js` and `.ejs; with `.html`.
 
-This will ensure that the file paths are correct and the activity can be compiled on the 'localhost'. 
+This will ensure that the file paths are correct and the activity can be compiled on the `localhost`. 
 
 ```
 Project is running at http://0.0.0.0:8601/
@@ -106,7 +106,7 @@ Configure the file path to that of this repository.
 
 ## Integrating Datastore
 
-In order to integrate Sugarizer's [datastore](https://github.com/llaske/sugarizer/tree/master/activities/ActivityTemplate/lib/sugar-web/datastore) function, I inputed the 'json' data collected from 'containters/save-button.js' into a 'div' value. The lines of codes are commented out so that the saved data would not be downloaded.
+In order to integrate Sugarizer`s [datastore](https://github.com/llaske/sugarizer/tree/master/activities/ActivityTemplate/lib/sugar-web/datastore) function, I inputed the `json` data collected from `containters/save-button.js` into a `div` value. The lines of codes are commented out so that the saved data would not be downloaded.
 
 ```
 
@@ -136,7 +136,7 @@ key: "handleClick",
       
 ```
 
-I removed the unnecessary FileReader() from 'containers/load-button.js' and used the 'div' value to load the blocks onto the canvas.
+I removed the unnecessary FileReader() from `containers/load-button.js` and used the `div` value to load the blocks onto the canvas.
 
 ```
 
@@ -148,7 +148,7 @@ key: "handleChange",
 
 ```
 
-In 'components/load-button.js', instead of going with an 'input' element for the load button, I changed it to a 'div' element and changed the function to render the blocks ('onChange') on click.
+In `components/load-button.js`, instead of going with an `input` element for the load button, I changed it to a `div` element and changed the function to render the blocks (`onChange`) on click.
 
 ```
 _react2.default.createElement("div", {
@@ -159,7 +159,7 @@ _react2.default.createElement("div", {
     })
     
 ```
-In 'js/activity.js', I simulate a 'save' button click when the Sugar user clicks on the 'stop' button, and did the same for the 'load' button when the Sugar user reenters the activity, before passing the stored JSON data from the 'div' into the same 'div' ('document.getElementById("myBlocks").value = data').
+In `js/activity.js`, I simulate a `save` button click when the Sugar user clicks on the `stop` button, and did the same for the `load` button when the Sugar user reenters the activity, before passing the stored JSON data from the `div` into the same `div` (`document.getElementById("myBlocks").value = data`).
 
 ```
 for (var i = 0; i < document.body.getElementsByTagName("span").length; i++){
@@ -174,7 +174,7 @@ for (var i = 0; i < document.body.getElementsByTagName("span").length; i++){
 
 ```
 
-This meant that with the datastore function, which aligns with [Sugar's pedagogy of not having a complicated save/load system](https://wiki.sugarlabs.org/go/Human_Interface_Guidelines/The_Sugar_Interface), the blue menu bar is no longer necessary. However, we cannot remove it from the 'gui' because it would mean that the click simualtions would be impossible to complete. Instead I set the display to 'none' in 'containers/menu-bar.css'.
+This meant that with the datastore function, which aligns with [Sugar`s pedagogy of not having a complicated save/load system](https://wiki.sugarlabs.org/go/Human_Interface_Guidelines/The_Sugar_Interface), the blue menu bar is no longer necessary. However, we cannot remove it from the `gui` because it would mean that the click simualtions would be impossible to complete. Instead I set the display to `none` in `containers/menu-bar.css`.
 
 ## Acknowledgements
 
