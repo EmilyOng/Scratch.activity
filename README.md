@@ -140,7 +140,7 @@ key: "handleClick",
       
 ```
 
-I removed the unnecessary FileReader() from `containers/load-button.js` and used the `div` value to load the blocks onto the canvas.
+I removed the unnecessary `FileReader()` from `containers/load-button.js` and used the `div` value to load the blocks onto the canvas.
 
 ```
 
