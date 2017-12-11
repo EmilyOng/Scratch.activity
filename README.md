@@ -82,7 +82,7 @@ You would now need to configure your `package.json` file- do make the following 
 
 ## Precautions
 
-Afterwhich, it is important to look through all the files again and replace `.jsx` with `.js` because we do not want to `require` a file that no longer exists. It is also crucial to upate the `webpackconfig.js` and `package.json` files, and replace `.jsx` with `.js` and `.ejs; with `.html`.
+Afterwhich, it is important to look through all the files again and replace `.jsx` with `.js` because we do not want to `require` a file that no longer exists. It is also crucial to upate the `webpackconfig.js` and `package.json` files, and replace `.jsx` with `.js` and `.ejs` with `.html`.
 
 This will ensure that the file paths are correct and the activity can be compiled on the `localhost`. 
 
