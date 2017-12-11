@@ -184,11 +184,11 @@ This meant that with the datastore function, which aligns with [Sugar Labs' peda
 
 This was a challenging project for me, and would never have been possible without the guidance of the kind mentors! 
 
-  Samson
-  Ignacio Rodriguez
-  Michael Ohayon
-  Lionel Laské
-  Abdulsamad Aliyu
-  Nnachi Isaac Onuwa
-  Hrishi Patel
-  Walter Bender
++ Samson
++ Ignacio Rodriguez
++ Michael Ohayon
++ Lionel Laské
++ Abdulsamad Aliyu
++ Nnachi Isaac Onuwa
++ Hrishi Patel
++ Walter Bender
