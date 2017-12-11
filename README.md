@@ -5,7 +5,7 @@ Hello! I am Emily, a GCI'17 participant for Sugar Labs and this is one of the pr
 
 ## Definitions
 
-If you have noticed, Scratch 3.0 (https://github.com/LLK/scratch-gui) uses many '.jsx' and '.ejs' files. 
+If you have noticed,[Scratch 3.0](https://github.com/LLK/scratch-gui) uses many '.jsx' and '.ejs' files. 
 
 + [JSX is a preprocessor step that adds XML syntax to JavaScript. You can definitely use React without JSX but JSX makes React a lot more elegant.](http://buildwithreact.com/tutorial/jsx)
 
