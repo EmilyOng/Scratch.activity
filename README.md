@@ -174,7 +174,7 @@ for (var i = 0; i < document.body.getElementsByTagName("span").length; i++){
 
 ```
 
-This meant that with the datastore function, which aligns with [Sugar`s pedagogy of not having a complicated save/load system](https://wiki.sugarlabs.org/go/Human_Interface_Guidelines/The_Sugar_Interface), the blue menu bar is no longer necessary. However, we cannot remove it from the `gui` because it would mean that the click simualtions would be impossible to complete. Instead I set the display to `none` in `containers/menu-bar.css`.
+This meant that with the datastore function, which aligns with [Sugar`s pedagogy of not having a complicated save/load system](https://wiki.sugarlabs.org/go/Human_Interface_Guidelines/The_Sugar_Interface), the blue menu bar is no longer necessary. However, we cannot remove it from the `gui` because it would mean that the click simualtions would be impossible to complete. Instead I set the display to `none` in `container/menu-bar.css`.
 
 ## Acknowledgements
 
