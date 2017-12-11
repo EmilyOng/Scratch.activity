@@ -95,7 +95,7 @@ Version: webpack 3.10.0
 Time: 21251ms
 ```
 
-## Building:
+## Building
 
 ```
 cd scratch-gui
@@ -181,10 +181,17 @@ This meant that with the datastore function, which aligns with [Sugar`s pedagogy
 This was a challenging project for me, and would never have been possible without the guidance of the kind mentors! 
 
 Samson
+
 Ignacio Rodriguez
+
 Michael Ohayon
+
 Lionel Laské
+
 Abdulsamad Aliyu
+
 Nnachi Isaac Onuwa
+
 Hrishi Patel
+
 Walter Bender
