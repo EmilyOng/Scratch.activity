@@ -110,7 +110,7 @@ You can take a look at my prebuild source code [here](https://github.com/EmilyOn
 
 ## Integrating Datastore
 
-In order to integrate Sugarizer`s [datastore](https://github.com/llaske/sugarizer/tree/master/activities/ActivityTemplate/lib/sugar-web/datastore) function, I inputed the `json` data collected from `containters/save-button.js` into a `div` value. The lines of codes are commented out so that the saved data would not be downloaded.
+In order to integrate Sugarizer's [datastore](https://github.com/llaske/sugarizer/tree/master/activities/ActivityTemplate/lib/sugar-web/datastore) function, I inputed the `json` data collected from `containters/save-button.js` into a `div` value. The lines of codes are commented out so that the saved data would not be downloaded.
 
 ```
 
@@ -184,18 +184,11 @@ This meant that with the datastore function, which aligns with [Sugar Labs' peda
 
 This was a challenging project for me, and would never have been possible without the guidance of the kind mentors! 
 
-Samson
-
-Ignacio Rodriguez
-
-Michael Ohayon
-
-Lionel Laské
-
-Abdulsamad Aliyu
-
-Nnachi Isaac Onuwa
-
-Hrishi Patel
-
-Walter Bender
+  Samson
+  Ignacio Rodriguez
+  Michael Ohayon
+  Lionel Laské
+  Abdulsamad Aliyu
+  Nnachi Isaac Onuwa
+  Hrishi Patel
+  Walter Bender
